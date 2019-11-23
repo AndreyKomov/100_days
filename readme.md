@@ -7,3 +7,4 @@ GIT basics          https://github.com/rolling-scopes-school/lectures/blob/maste
 
 *day 3 - 23 nov*
 intro               https://learn.javascript.ru/
+basics 1 - 5
