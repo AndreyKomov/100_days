@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<img src="logical-operators.jpg" alt="logical-operators.jpg">
+<body>
+  <script>
+   let login
+   let LogAdmin
+   login=prompt("Who's there?", "");
+   if (login=="Админ") {
+     LogAdmin=prompt("Password", "");
+     if (LogAdmin=="Я главный") {
+       alert ("Здравствуйте!");
+     } else {
+       alert ("Неверный пароль!");
+     }
+   } else {
+     alert ("I don't know you!");
+     
+   }
+  </script>
+</body>
+</html>
